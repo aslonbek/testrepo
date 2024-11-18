@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load data
+
 df = pd.read_csv('sales_data.csv')
 
 # Convert 'Quarter' to a categorical type for ordering in the charts
